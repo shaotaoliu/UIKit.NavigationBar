@@ -5,7 +5,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
-        let backButtonImage = UIImage(systemName: "list.bullet")
+        let backButtonImage = UIImage(systemName: "xmark")
         let appearance = UINavigationBar.appearance(whenContainedInInstancesOf: [CustomBackButtonNavController.self])
         appearance.backIndicatorImage = backButtonImage
         appearance.backIndicatorTransitionMaskImage = backButtonImage
